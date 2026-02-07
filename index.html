@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<title>Yuri Web</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+		<style>
+			* {
+				font-family: roboto;
+			} 
+			
+			a{
+				text-decoration: none;
+				color: black;
+			}
+			a:hover {
+				text-decoration: none;
+				color: white;
+			}
+			
+			body {
+				margin: 0;
+				padding: 0;
+				background: url('imgs/kiss.gif');
+				background-repeat: no-repeat; 
+				background-size: cover;
+				z-index: -1;
+			}
+			
+			body::after {
+				content: "";
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.5);
+				z-index: -1;
+			}
+			
+			.button {
+				display: flex; 
+				gap: 6px;"
+			}
+			
+			.yuribtn {
+				padding: 10px;
+				border-radius: 6px;
+				background-color: #ffecf2;
+				border-style: solid;
+				border-color: #FFC5D3; 
+				border-width: 2px;
+				color: black;
+				cursor: pointer;
+				width: 90px;
+				text-align: center;
+				transition-duration: 0.2s
+			} 
+			.yuribtn:hover{
+				background-color: #FFC5D3; 
+				color: white;
+			}
+			
+			.credbtn {
+				padding: 10px;
+				border-radius: 6px;
+				background-color: #E5E4E2;
+				border-style: solid;
+				border-color: #808080; 
+				border-width: 2px;
+				color: black;
+				cursor: pointer;
+				width: 90px;
+				text-align: center;
+				transition-duration: 0.2s
+			} 
+			.credbtn:hover{
+				background-color: #818181; 
+				color: white;
+			}
+			
+			.paddiv {
+				padding: 10px;
+				background-color: rgba(0, 0, 0, 0.75);
+				width: 240px;
+				height: 190px;
+				margin-top: 425px; 
+				margin-left: 0px;
+				border-radius: 0px 10px 0px 0px;
+				background-opacity: 0.5;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="paddiv">
+			<h2 style="margin-top:1; margin-bottom: -10px; color: lightgray"><b>Yuri Website</b></h2>
+			<p style="margin-bottom: -10px; margin-left: 2px; color: white; font-size: 15px;">You can find here some Yuri that <br> I have read before.</p> 
+			<p style="margin-bottom: -5px; margin-left: 2px; color: white; font-size: 15px;">This site was created to be a form <br> for me to study both HTML and CSS.</p>
+			<div class="button">
+				<p class="yuribtn"><a href="yuri.html">Yuris<a></p>
+				<p class="credbtn"><a href="https://github.com/shiverbanks">Credits</a></p>
+			</div>
+		</div>
+	</body>
+</html>
